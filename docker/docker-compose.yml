@@ -1,0 +1,15 @@
+
+services:
+  mysql:
+    image-name: nlw-eventApp
+    image: mysql
+    container_name: nlw-eventApp
+    environment:
+      MYSQL_DATABASE: eventApp
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: 123
+      MYSQL_ROOT_PASSWORD: 123
+    ports:
+      - 3307:3307
+    expose:
+      - 3307
