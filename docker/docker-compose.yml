@@ -1,7 +1,6 @@
 
 services:
   mysql:
-    image-name: nlw-eventApp
     image: mysql
     container_name: nlw-eventApp
     environment:
