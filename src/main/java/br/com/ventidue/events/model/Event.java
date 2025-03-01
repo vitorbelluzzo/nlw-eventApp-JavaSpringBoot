@@ -38,6 +38,9 @@ public class Event {
     @Column(name = "end_time")
     private LocalTime endTime;
 
+
+
+
     public LocalDate getEndDate() {
         return endDate;
     }

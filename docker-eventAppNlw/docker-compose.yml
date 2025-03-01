@@ -9,6 +9,6 @@ services:
       MYSQL_PASSWORD: 123
       MYSQL_ROOT_PASSWORD: 123
     ports:
-      - 3307:3307
+      - "3307:3306"
     expose:
       - 3307
