@@ -27,5 +27,10 @@ public class EventService {
         return eventRepository.findByPrettyName(prettyName);
     }
 
+    public Event alterEvent(Event event) {
+        Event Event = null;
+        return Event;
+    }
+
 
 }
