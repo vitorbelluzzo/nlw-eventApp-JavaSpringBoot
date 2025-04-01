@@ -3,6 +3,7 @@ package br.com.ventidue.events.model;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "tbl_user")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
